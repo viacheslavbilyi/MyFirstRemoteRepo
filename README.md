@@ -7,4 +7,6 @@ My third commit in the repo directly from GitHub
 
 My forh commit in the repo directly from GitHub
 
-DevFork commit
+DevFork commit 1
+
+DevFork commit 2
