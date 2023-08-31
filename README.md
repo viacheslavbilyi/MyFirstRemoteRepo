@@ -9,6 +9,7 @@ My forh commit in the repo directly from GitHub
 
 Another change 1
 
-DevFork commit 1, 2
+DevFork commit 1, 2, 3
+
 
 DevSourcetree commit 1
