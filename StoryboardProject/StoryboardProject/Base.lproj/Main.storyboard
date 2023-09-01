@@ -21,11 +21,18 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WM3-0E-WkS">
+                                <rect key="frame" x="180.66666666666666" y="336" width="32" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wHS-eP-BKh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0wI-DB-sFD"/>
+                            <constraint firstItem="WM3-0E-WkS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5U9-Sf-v0b"/>
+                            <constraint firstItem="wHS-eP-BKh" firstAttribute="top" secondItem="WM3-0E-WkS" secondAttribute="bottom" constant="51" id="HRr-wZ-8f4"/>
                             <constraint firstItem="wHS-eP-BKh" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cvn-Gz-rhi"/>
                         </constraints>
                     </view>
