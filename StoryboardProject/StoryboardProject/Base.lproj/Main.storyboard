@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHS-eP-BKh">
-                                <rect key="frame" x="16" y="75" width="75" height="35"/>
+                                <rect key="frame" x="159" y="421" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
@@ -25,8 +25,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="wHS-eP-BKh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Kln-Y4-hwC"/>
-                            <constraint firstItem="wHS-eP-BKh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="u70-fa-XHQ"/>
+                            <constraint firstItem="wHS-eP-BKh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0wI-DB-sFD"/>
+                            <constraint firstItem="wHS-eP-BKh" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cvn-Gz-rhi"/>
                         </constraints>
                     </view>
                 </viewController>
