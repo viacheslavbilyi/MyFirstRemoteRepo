@@ -15,6 +15,7 @@
 		3F36D6242AA1636600AFBCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D6222AA1636600AFBCB6 /* LaunchScreen.storyboard */; };
 		3F36D62C2AA1694500AFBCB6 /* MySwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36D62B2AA1694500AFBCB6 /* MySwiftUIView.swift */; };
 		3F36D62F2AA16A2100AFBCB6 /* My1SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36D62E2AA16A2100AFBCB6 /* My1SwiftUIView.swift */; };
+		3F36D6352AA16E5500AFBCB6 /* SwiftUIView1234.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36D6342AA16E5500AFBCB6 /* SwiftUIView1234.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3F36D6252AA1636600AFBCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F36D62B2AA1694500AFBCB6 /* MySwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIView.swift; sourceTree = "<group>"; };
 		3F36D62E2AA16A2100AFBCB6 /* My1SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My1SwiftUIView.swift; sourceTree = "<group>"; };
+		3F36D6342AA16E5500AFBCB6 /* SwiftUIView1234.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView1234.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		3F36D6162AA1636500AFBCB6 /* StoryboardProject */ = {
 			isa = PBXGroup;
 			children = (
+				3F36D6332AA16E4100AFBCB6 /* MyGroup */,
 				3F36D6172AA1636500AFBCB6 /* AppDelegate.swift */,
 				3F36D6192AA1636500AFBCB6 /* SceneDelegate.swift */,
 				3F36D61B2AA1636500AFBCB6 /* ViewController.swift */,
@@ -71,6 +74,14 @@
 				3F36D62B2AA1694500AFBCB6 /* MySwiftUIView.swift */,
 			);
 			path = StoryboardProject;
+			sourceTree = "<group>";
+		};
+		3F36D6332AA16E4100AFBCB6 /* MyGroup */ = {
+			isa = PBXGroup;
+			children = (
+				3F36D6342AA16E5500AFBCB6 /* SwiftUIView1234.swift */,
+			);
+			path = MyGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			files = (
 				3F36D62F2AA16A2100AFBCB6 /* My1SwiftUIView.swift in Sources */,
 				3F36D61C2AA1636500AFBCB6 /* ViewController.swift in Sources */,
+				3F36D6352AA16E5500AFBCB6 /* SwiftUIView1234.swift in Sources */,
 				3F36D6182AA1636500AFBCB6 /* AppDelegate.swift in Sources */,
 				3F36D62C2AA1694500AFBCB6 /* MySwiftUIView.swift in Sources */,
 				3F36D61A2AA1636500AFBCB6 /* SceneDelegate.swift in Sources */,
